@@ -1,0 +1,1699 @@
+/********************Master page innehåll**************************************/
+/*the background of the webbside*/
+body {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+/*logotypen*/
+#logo {
+    width: 170px;
+    height: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+    #logo img {
+        border: 5px solid rgba(54, 163, 46, 0.83);
+        border-radius: 20px;
+        width: 140px;
+    }
+
+/*gröna genomskinliga background*/
+#content {
+    background-color: rgba(118, 244, 79, 0.21);
+    width: 1300px;
+    min-height: 1400px;
+    margin: 0 auto;
+    border: 9px solid;
+    border-radius: 20px;
+    border-color: rgba(54, 163, 46, 0.83);
+    box-shadow: inset 0 0 0 3px rgba(54, 163, 46, 0.83), 0 2px 5px rgba(54, 163, 46, 0.83);
+}
+
+/*the navigation*/
+#meny > div > a, .aptitretareMenu {
+    float: left;
+    width: 157px;
+    padding: 3px 7px 3px 7px;
+    margin: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 23px;
+    color: rgba(66,48,1,1);
+    border-radius: 10px;
+    border: 1px solid rgba(105,181,50,1);
+    background: rgba(122,199,67,1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+    text-transform: uppercase;
+}
+
+#loggain {
+    background-color: #760969;
+}
+
+#meny a:link, #meny a:visited {
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+
+#meny a:hover {
+    background: #ffffff;
+    color: #7ac743;
+    border: 1px solid #ffffff;
+}
+
+#menu-container {
+    width: 200px;
+    float: left;
+}
+
+#mainMenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    width: 200px;
+    float: left;
+    position: absolute;
+    margin-top: 70px;
+}
+
+    #mainMenu li {
+        font-size: 16px;
+        border: solid;
+        border-radius: 10px;
+        background-color: rgba(122,199,67,1);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-color: rgba(255, 255, 255, 0.3);
+        text-align: center;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        width: 169px;
+        margin-left: 15px;
+        border: 1px solid rgba(105,181,50,1);
+    }
+
+/**********************defult page /Home Page ***********************************/
+
+/*pic of the veckanslunch in defult*/
+#veckanslunch img {
+    border-radius: 20px;
+    border: solid;
+    border-color: #647357;
+    border-width: 7px;
+    margin: 50px;
+    display: block;
+    width: 500px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*text in the defult page*/
+#text p {
+    float: left;
+    text-align: center;
+    border: 4px solid rgba(54, 163, 46, 0.83);
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 3px rgba(54, 163, 46, 0.83), 0 2px 5px rgba(54, 163, 46, 0.83);
+    width: 800px;
+    height: 130px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+/**********All Articles************/
+
+.articelContainer {
+    width: 1100px;
+    height: 450px;
+    margin: 50px;
+    border: solid 4px #760969;
+    border-radius: 20px;
+    margin-left: 95px;
+}
+
+    .articelContainer h1 {
+        color: #760969;
+        font-family: cursive;
+        font-size: 30px;
+        text-align: left;
+        text-decoration: underline;
+    }
+
+    .articelContainer img {
+        float: left;
+        width: 300px;
+        height: 300px;
+        margin-right: 15px;
+        margin-top: 25px;
+        border: solid 2px #760969;
+        border-radius: 20px;
+    }
+
+    .articelContainer p {
+        color: #760969;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 30px;
+        text-align: justify;
+        width: 1000px;
+    }
+
+#article1 {
+    float: left;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#article2 {
+    float: left;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#article3 {
+    float: left;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#article4 {
+    float: left;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#next {
+    width: 84px;
+    height: 44px;
+    font-size: 25px;
+    color: rgba(66,48,1,1);
+    border-radius: 10px;
+    border: 1px solid #760969;
+    background: #760969;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #ffffff;
+    margin: 10px;
+    cursor: pointer;
+}
+
+    #next:hover {
+        background-color: #a340bc;
+    }
+
+#prev {
+    width: 153px;
+    height: 44px;
+    font-size: 25px;
+    color: #760969;
+    border-radius: 10px;
+    border: 1px solid #760969;
+    background: #760969;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+    #prev:hover {
+        background-color: #a340bc;
+    }
+/*******************  Footer  ***********************************/
+/*bottom text*/
+footer {
+    display: block;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/********************mat*************************************************/
+
+/*Style till "våra recept" text*/
+h2 {
+    margin-top: 70px;
+    text-align: initial;
+    color: #000;
+    font-size: x-large;
+    margin-left: 50px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 20px;
+}
+
+
+/*Style till text inne listContainer */
+.listItem {
+    width: 550px;
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    font-size: 23px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+    /*Style till bilder som är i listContainer*/
+    .listItem img {
+        width: 300px;
+        height: 200px;
+    }
+
+
+.hover {
+    outline-style: double;
+    outline-color: yellow;
+    outline-width: thick;
+}
+
+/*pagecolumn gör en vertical column till båda texter och bilder*/
+.pagecolumn {
+    width: 600px;
+    float: left;
+    padding: 0px;
+    margin-top: 7px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+
+/****************Namn till värje mat i mat sidan**************/
+.text1 {
+    margin-left: 0px;
+    padding: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    width: 500px;
+    float: left;
+    margin-top: 40px;
+}
+/****Namn till varje mat i alla reseptsidor (mat)**********/
+h3 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-left: 20px;
+    float: left;
+    margin-top: -40px;
+}
+/****style till varje image i reseptsidor (mat) ****/
+div.image {
+    width: 400px;
+    height: 300px;
+    margin-left: 60px;
+}
+
+/*Style till ingredienser till alla receptSidor (mat) */
+.text2 {
+    margin-left: 50px;
+    padding: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    width: 500px;
+    float: left;
+    margin-top: 0px;
+    text-align: left;
+    font-size: 17px;
+}
+    /*style till första linje av ingredienser till varje reseptsidor (mat) */
+    .text2 p {
+        text-decoration: underline;
+        margin-left: 50px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    /*style till list av ingredienser i varje reseptsidor (mat)*/
+    .text2 ul {
+        list-style-position: inside;
+    }
+/*style till text under gör så här i varje reseptsidor (mat) */
+#text3 {
+    text-align: left;
+    display: none;
+    line-height: 2.5;
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    width: 1082px;
+}
+
+/*Style till "Gör så här" till alla receptSidor (mat)*/
+#btn-jquery {
+    font-size: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    width: 150px;
+    margin-left: 80px;
+    margin-top: 0px;
+    float: left;
+    background-color: rgba(105,181,50,1);
+    border-radius: 10px;
+    border: solid;
+    border-color: rgba(105,181,50,1);
+}
+/***********Aptitretare style och receptsidor****************************/
+
+.ax img {
+    width: 300px;
+    height: 280px;
+    float: left;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: -280px;
+}
+/**style till text i receptsidor1,2,3,4******/
+.message {
+    font-size: x-large;
+    text-align: justify;
+    margin-left: 400px;
+    margin-right: 100px;
+    margin-top: 40px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.link1 {
+    text-decoration: none;
+    color: black;
+}
+
+.link2 {
+    text-decoration: none;
+    color: black;
+}
+
+.link3 {
+    text-decoration: none;
+    color: black;
+}
+
+.link4 {
+    text-decoration: none;
+    color: black;
+}
+
+/***style till img apti2 in receptsidan2********/
+#artikel {
+    width: 300px;
+    height: 280px;
+    float: left;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: -380px;
+}
+/**style till img apti4 in receptisidan4******/
+#artikel2 {
+    width: 300px;
+    height: 280px;
+    float: left;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: -200px;
+}
+/***img apti1 style i aptitretare sidan***/
+#recept1 {
+    margin-top: 0px;
+}
+/***img apti2 style i aptitretare sidan***/
+#recept2 {
+    margin-top: 10px;
+}
+/***img apti3 style i aptitretare sidan***/
+#recept3 {
+    margin-top: 0px;
+}
+/***img apti4 style i aptitretare sidan***/
+#recept4 {
+    margin-top: 10px;
+}
+
+.text3 {
+    text-align: left;
+    font-size: large;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    width: 900px;
+    margin-top: 20px;
+    margin-left: 80px;
+    float: left;
+}
+
+
+/**title till varje mat i receptsidor 1,2,3,4*****/
+h4 {
+    font-size: x-large;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-left: 270px;
+}
+
+/****************** Om Oss Page***************************************/
+#omossRubrik {
+    height: 60px;
+    width: 1200px;
+    font-size: 50px;
+    color: #FF8000;
+    background-color: #F5D0A9;
+    border-radius: 10px;
+    border: 1px solid #FF8000;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+    margin-top: 120px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#omossPargraf {
+    font-size: 35px;
+    color: #3B240B;
+    color: #ff8000;
+    background-color: rgba(245, 208, 169, 0.35);
+    border-radius: 10px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+#chefImg {
+    width: 200px;
+    height: 300px;
+    margin-right: 40px;
+    float: right;
+    border-radius: 10px;
+    border: 4px solid #FF8000;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+}
+/****************Login page start here************************/
+#loginContainer {
+    width: 478px;
+    height: 200px;
+    border: 3px solid;
+    border-radius: 20px;
+    border-color: rgba(54, 163, 46, 0.83);
+    box-shadow: inset 0 0 0 3px rgba(54, 163, 46, 0.83), 0 2px 5px rgba(54, 163, 46, 0.83);
+    margin: 0 auto;
+    margin-top: 250px;
+}
+/*******Användernamn****************/
+#logincont {
+    width: 450px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#labelNamePass {
+    width: 177px;
+    height: 84px;
+    float: left;
+    text-align: right;
+    margin: 20px;
+}
+
+.labelNamn {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.labelPass {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+/******Lösenord***********/
+#BoxNamePass {
+    width: 193px;
+    margin: 20px;
+    float: right;
+}
+
+.nameBox {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 25px;
+}
+
+.passBox {
+    width: 200px;
+    height: 25px;
+}
+
+.ButtonLogin {
+    margin-right: 25px;
+    float: right;
+    width: 120px;
+    height: 44px;
+    font-size: 25px;
+    color: rgba(66,48,1,1);
+    border-radius: 10px;
+    border: 1px solid rgba(122,199,67,1);
+    background: rgba(122,199,67,1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.lblmsg {
+    float: left;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 25px;
+}
+
+/*************welcome page************************/
+#welcome {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    border: 5px solid #c58445;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+}
+
+#welcomMsg {
+    color: #ffffff;
+    font-size: 45px;
+    background-color: peru;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+#successMsg {
+    color: #ffffff;
+    font-size: 30px;
+    background-color: rgba(205, 133, 63, 0.56);
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+/********Leave A Comment in ReceptPgaes*************/
+#labelLeaveCom {
+    float: left;
+    color: rgba(66,48,1,1);
+    font-size: 57px;
+    font-family: cursive;
+    margin-top: 40px;
+}
+
+#Button1 {
+    float: right;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 23px;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid rgba(105,181,50,1);
+    background: rgba(122,199,67,1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+    cursor: pointer;
+    margin: 5px;
+}
+
+#ContentPlaceHolder1_TextBox1 {
+    float: left;
+    margin-bottom: 10px;
+    height: 25px;
+    width: 200px;
+    color: #423001;
+    font-family: cursive;
+    font-size: 20px;
+    margin: 5px;
+    text-transform: capitalize;
+}
+
+#Button1:hover {
+    background: #04B404;
+}
+
+#TextArea1 {
+    width: 450px;
+    height: 122px;
+    text-transform: capitalize;
+    float: left;
+    font-family: cursive;
+    font-size: 20px;
+    color: #22c81b;
+    border-radius: 10px;
+    border: 1px solid rgba(105,181,50,1);
+}
+
+
+.commentstyle {
+    float: left;
+    position: relative;
+    background-color: #ffffff;
+    width: 450px;
+    height: 53px;
+    font-family: cursive;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(105,181,50,1);
+    text-align: left;
+}
+
+#container {
+    width: 850px;
+    height: 400px;
+    margin-left: 70px;
+}
+
+#cooontainer {
+    width: 450px;
+    min-height: 600px;
+}
+/****************************************************/
+.dropdown {
+    display: none;
+}
+
+#angleDown {
+    width: 10px;
+    float: right;
+    margin-top: 5px;
+}
+
+#angleUp {
+    width: 10px;
+    float: right;
+    margin-top: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+/**********************Veckanslunch page styling begins here!************************************/
+
+
+.tableContainer {
+    margin-top: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: capitalize;
+}
+
+.column {
+    float: left;
+    width: 180px;
+    height: 600px;
+    border: 0px solid black;
+}
+
+.tableContainer img {
+    margin-left: 25px;
+    float: left;
+    width: 75%;
+    margin-top: 20px;
+    height: 150px;
+    margin-bottom: 50px;
+}
+
+.tableContainer h2 {
+    background-color: darkgrey;
+    height: 40px;
+    margin-left: 2px;
+    width: auto;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#weekNum h1 {
+    margin-top: 100px;
+    margin-bottom: -60px;
+    background-color: peru;
+    line-height: 100px;
+    font-family: 'Agency FB';
+    font-size: 90px;
+    font-stretch: extra-expanded;
+    font-weight: bolder;
+    color: white;
+    width: 99%;
+}
+
+p.lunch {
+    font-family: 'Matura MT Script Capitals';
+    font-size: 25px;
+}
+
+p.rec {
+    font-family: 'Comic Sans MS';
+    font-size: medium;
+    font-style: italic;
+}
+/***************Ipad anpassad*************************/
+@media screen and (max-width: 768px) {
+
+    #content {
+        width: 700px;
+        height: 1600px;
+    }
+
+    #logo img {
+        width: 170px;
+        height: 160px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #meny div a {
+        width: 95%;
+        margin: 8px;
+        margin-top: 15px;
+        margin-bottom: 1px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    #menu-container {
+        width: 100%;
+    }
+
+    #mainMenu li {
+        display: none;
+    }
+
+    /*Style till label och text i dafault*/
+    /*div.Logga.in a {
+        margin-top: -303px;
+    }*/
+    /*text in the default page*/
+    #text p {
+        float: left;
+        margin-left: 67px;
+        width: 553px;
+        height: 169px;
+        font-size: 34px;
+    }
+    /*pic of the veckanslunch in default*/
+    #veckanslunch img {
+        margin-left: 93px;
+    }
+
+    /****************** Om Oss Page***************************************/
+    /*Style till om oss text*/
+    #omossCont {
+        width: 673px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 350px;
+    }
+
+    #omossRubrik {
+        font-size: 40px;
+        width: 673px;
+        height: 45px;
+    }
+
+    #omossPargraf {
+        font-size: 30px;
+    }
+
+    #chefImg {
+        display: none;
+    }
+
+    /**********All Articles in homepage************/
+    .articelContainer {
+        width: 600px;
+        height: 550px;
+        margin: 50px;
+        margin-top: 780px;
+        text-align: center;
+    }
+
+        .articelContainer h1 {
+            font-size: 20px;
+            width: 550px;
+        }
+
+        .articelContainer img {
+            width: 250px;
+            height: 250px;
+            margin: 0 auto;
+            margin-top: 0px;
+            float: none;
+        }
+
+        .articelContainer p {
+            font-size: 20px;
+            width: 500px;
+        }
+
+    #article1 {
+        float: left;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    #article2 {
+        float: left;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    #article3 {
+        float: left;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    #article4 {
+        float: left;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    #next {
+        width: 70px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    #prev {
+        width: 130px;
+        height: 40px;
+        font-size: 20px;
+    }
+    /*********************************************/
+    table {
+        margin-left: 37px;
+    }
+
+    .text1 {
+        margin-left: 70px;
+        padding: 20px;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        width: 500px;
+        float: left;
+        margin-top: 40px;
+        height: 0px;
+    }
+
+    h2 {
+        margin-left: 250px;
+        margin-top: 30px;
+    }
+    /*värje namn av mat*/
+    .listItem {
+        width: 300px;
+        font-size: 18px;
+        float: right;
+        padding-bottom: 20px;
+    }
+        /*Värje bilder till mat*/
+        .listItem img {
+            width: 150px;
+            height: 110px;
+            margin-left: 10px;
+            margin-top: 0px;
+        }
+    /*pagecolumn style som jag har för två column i mat sida*/
+    .pagecolumn {
+        height: 300px;
+        margin-top: 0auto;
+        margin-left: 10px;
+    }
+    /*style till Reseptsidor bild*/
+    img {
+        border-radius: 20px;
+        width: 300px;
+        margin-left: -120px;
+        margin-top: -20px;
+        float: left;
+    }
+
+    /*style till Ingredenser text i ReseptSidor*/
+    div.text2 {
+        width: 220px;
+        height: 300px;
+        font-size: 13px;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        margin-top: -30px;
+        margin-left: 350px;
+    }
+    /*style till Går så här i Reseptsidor*/
+    div.text3 {
+        font-size: 16px;
+        width: 620px;
+        margin-left: 30px;
+        margin-top: -20px;
+    }
+    /*style till Värje namn av mat i Reseptsidor */
+    h3 {
+        font-size: large;
+        width: 600px;
+        height: 100px;
+        margin-left: -23px;
+    }
+
+    /*****aptitretare**************************************************************/
+    #mainMenu li {
+        display: none;
+    }
+    /*change in margin-top*/
+    .message {
+        font-size: large;
+        text-align: justify;
+        margin-left: 100px;
+        overflow: hidden;
+        margin-right: 100px;
+        margin-top: -20px;
+    }
+    /*changes in height*/
+    .ax img {
+        margin-left: 230px;
+        width: 250px;
+        height: 230px;
+        margin-top: 30px;
+    }
+    /*apti1 img in aptitretare sidan*/
+    #recepet1 {
+        margin-top: 10px;
+    }
+    /*apti2 img in aptitretare sidan*/
+    #recept2 {
+        margin-top: 10px;
+    }
+    /*apti3 img in aptitretare sidan*/
+    #recept3 {
+        float: left;
+    }
+    /*apti4 img in aptitretare sidan*/
+    #recept4 {
+        float: left;
+    }
+    /*list of the name of the foods in receptsidor*/
+    h4 {
+        margin-left: 0px;
+    }
+    /*apti2 receptsidan 2*/
+    #artikel {
+        width: 250px;
+        height: 170px;
+        border-radius: 20px;
+        margin-left: 240px;
+        margin-top: 0px;
+    }
+    /*apti4 receptsidan 4*/
+    #artikel2 {
+        width: 250px;
+        height: 170px;
+        border-radius: 20px;
+        margin-left: 240px;
+        margin-top: 0px;
+    }
+
+    /*style till texarea*/
+    #aboutDescription {
+        width: 600px;
+        font-size: large;
+        margin-top: 40px;
+    }
+
+    div.bild7 {
+        margin-left: 250px;
+        width: 150px;
+        margin-top: 30px;
+    }
+
+        div.bild7 img {
+            width: 350px;
+        }
+
+
+    .text2 p {
+        font-size: 15px;
+    }
+
+    #btn-jquery {
+        width: 150px;
+        margin-left: 40px;
+        margin-top: 60px;
+    }
+
+    #text3 {
+        display: none;
+        line-height: 2.5;
+        margin-left: 0px;
+        width: 700px;
+        margin-top: 0px;
+    }
+
+    #loginContainer {
+        margin-top: 400px;
+    }
+
+    /********Leave A Comment in ReceptPgaes*************/
+    #labelLeaveCom {
+        font-size: 40px;
+    }
+
+    #container {
+        width: 656px;
+        height: 400px;
+        margin-left: 35px;
+    }
+
+    #welcome {
+        margin-top: 400px;
+    }
+
+    /*******Veckanslunch page styling begins here************/
+
+
+    .tableContainer {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 552px;
+        height: 3840px;
+    }
+
+    .column {
+        width: 552px;
+        height: 170px;
+        border: 1px solid;
+        border-radius: 20px;
+        border-color: #cd853f;
+        box-shadow: inset 0 0 0 3px #cd853f, 0 2px 5px #cd853f;
+        margin-top: 10px;
+        background-color: rgba(205, 133, 63, 0.39);
+    }
+
+    .tableContainer img {
+        margin-top: 10px;
+        float: left;
+        width: 130px;
+        height: 110px;
+    }
+
+
+    .tableContainer h2 {
+        background-color: rgb(205, 133, 63);
+        height: 35px;
+        margin: auto;
+        width: 500px;
+        border: 1px solid;
+        border-radius: 20px;
+        border-color: #cd853f;
+        box-shadow: inset 0 0 0 3px #cd853f, 0 2px 5px #cd853f;
+        padding: 0px;
+        margin-top: 10px;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        text-align: center;
+        font-size: 30px;
+        text-transform: capitalize;
+        color: #ffffff;
+    }
+
+    #weekNum h1 {
+        margin-top: 271px;
+        margin-bottom: 0px;
+        font-stretch: normal;
+        font-weight: normal;
+        line-height: 50px;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 40px;
+        text-align: center;
+        color: white;
+        width: 552px;
+        height: 50px;
+        background-color: peru;
+        border-radius: 10px;
+    }
+
+
+    p.lunch {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 25px;
+    }
+
+    p.rec {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+    }
+}
+
+/****************************Mobil anpassad**********************************/
+@media screen and (max-width: 414px) {
+    #content {
+        width: 355px;
+        border: 6px solid;
+        border-color: rgba(54, 163, 46, 0.83);
+        box-shadow: 0 1px 2px rgba(54, 163, 46, 0.83);
+        margin-top: 40px;
+        height: 2300px;
+    }
+
+    #logo {
+        width: 150px;
+        height: 140px;
+    }
+
+    #meny div a {
+        width: 90%;
+        margin: 8px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+
+    div.Logga.in a {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        float: left;
+        margin-left: 150px;
+    }
+
+    #menu-container {
+        width: 100%;
+    }
+
+    #mainMenu li {
+        display: none;
+    }
+    /*text in the defult page*/
+    #text p {
+        width: 340px;
+        height: 126px;
+        font-size: 22px;
+        margin-left: 4px;
+    }
+
+    /*pic of the veckanslunch in defult*/
+    #veckanslunch img {
+        width: 253px;
+        height: 150px;
+        margin-left: 41px;
+    }
+
+    /*******Article in homepage**************/
+    .articelContainer {
+        width: 300px;
+        height: 650px;
+        margin: 0 auto;
+        margin-top: 450px;
+    }
+
+        .articelContainer h1 {
+            font-size: 20px;
+            width: 295px;
+        }
+
+        .articelContainer img {
+            float: left;
+            width: 245px;
+            height: 245px;
+            margin: 0 auto;
+            margin-top: 10px;
+            margin-left: 15px;
+        }
+
+        .articelContainer p {
+            float: left;
+            font-size: 18px;
+            width: 285px;
+            margin: 0 auto;
+        }
+
+    #article1 {
+        margin-left: 10px;
+    }
+
+    #article2 {
+        margin-left: 10px;
+    }
+
+    #article3 {
+        margin-left: 10px;
+    }
+
+    #article4 {
+        margin-left: 10px;
+    }
+
+    #next {
+        width: 84px;
+        height: 44px;
+        font-size: 25px;
+        color: rgba(66,48,1,1);
+        border-radius: 10px;
+        border: 1px solid #760969;
+        background: #760969;
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        color: #ffffff;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+        #next:hover {
+            background-color: #a340bc;
+            text-decoration: underline;
+        }
+
+
+    #prev {
+        width: 153px;
+        height: 44px;
+        font-size: 25px;
+        color: #760969;
+        border-radius: 10px;
+        border: 1px solid #760969;
+        background: #760969;
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+        #prev:hover {
+            background-color: #a340bc;
+            text-decoration: underline;
+        }
+
+    /*******Loggin sidan*********************/
+
+    #BoxNamePass {
+        float: left;
+        margin-left: 0px;
+        width: 170px;
+    }
+
+    .nameBox {
+        width: 130px;
+        float: left;
+        height: 20px;
+    }
+
+    .passBox {
+        width: 130px;
+        float: left;
+        height: 20px;
+    }
+
+    .labelNamn {
+        font-size: 17px;
+        float: left;
+        margin-bottom: 10px;
+    }
+
+    .labelPass {
+        font-size: 17px;
+        float: left;
+        margin-top: 4px;
+    }
+
+    #labelNamePass {
+        width: 120px;
+    }
+
+    #loginContainer {
+        width: 320px;
+        margin-top: 250px;
+    }
+
+    #logincont {
+        width: 350px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .ButtonLogin {
+        width: 100px;
+        font-size: 20px;
+        height: 35px;
+    }
+
+    .lblmsg {
+        margin-left: 25px;
+        float: left;
+        color: #ffffff;
+        font-size: 16px;
+        font-family: cursive;
+    }
+
+    /*****Leave A Comment in ReceptPgaes********/
+    #labelLeaveCom {
+        font-size: 25px;
+        margin-left: 1px;
+    }
+
+    #ContentPlaceHolder1_TextBox1 {
+        margin-top: 10px;
+    }
+
+    #Button1 {
+        float: right;
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 23px;
+        color: #ffffff;
+        border-radius: 10px;
+        border: 1px solid rgba(105,181,50,1);
+        background: rgba(122,199,67,1);
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+        cursor: pointer;
+        margin: 5px;
+        margin-right: 20px;
+    }
+
+        #Button1:hover {
+            background: #04B404;
+        }
+
+    #TextArea1 {
+        width: 335px;
+        margin-left: 1px;
+    }
+
+    .commentstyle {
+        float: left;
+        position: relative;
+        background-color: #fff;
+        width: 310px;
+        height: 53px;
+        font-family: cursive;
+        font-size: 20px;
+        border-radius: 10px;
+        border: 1px solid rgba(105,181,50,1);
+        text-align: left;
+    }
+
+    #container {
+        width: 360px;
+        height: 400px;
+        margin-left: 6px;
+        text-align: left;
+    }
+
+    #cooontainer {
+        width: 360px;
+    }
+
+    /****************** Om Oss Page***************************************/
+    #omossRubrik {
+        height: 40px;
+        width: 330px;
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    #omossPargraf {
+        font-size: 30px;
+        width: 330px;
+    }
+
+    #chefImg {
+        display: none;
+    }
+
+    /***************mat sidor***************/
+    /*Våra Recept text style*/
+    h2 {
+        margin-left: 100px;
+        font-size: large;
+    }
+    /*värje namn av mat*/
+    .listItem {
+        width: 150px;
+        font-size: 15px;
+        float: left;
+        margin-top: 0px;
+    }
+        /*Värje bilder till mat*/
+        .listItem img {
+            width: 100px;
+            height: 90px;
+            float: right;
+        }
+
+    #image1 {
+        width: 250px;
+        position: absolute;
+    }
+    /*pagecolumn style som jag har för två column i mat sida*/
+    .pagecolumn {
+        height: 250px;
+        width: 300px;
+        float: left;
+        margin-top: 30px;
+    }
+    /*style till Reseptsidor bild*/
+    img {
+        border-radius: 20px;
+        width: 130px;
+        margin-top: 0px;
+        float: left;
+    }
+
+    div.image {
+        float: left;
+        margin-left: 20px;
+        width: 130px;
+        height: 97px;
+    }
+
+    /*style till Ingredenser text i ReseptSidor- på gång*/
+    div.text2 {
+        float: right;
+        margin-top: initial;
+        font-size: 15px;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        margin-top: 190px;
+        margin-right: 65px;
+    }
+    /*style till Går så här i Reseptsidor - på gång*/
+    div.text3 {
+        font-size: 12px;
+        width: 330px;
+        margin-left: 20px;
+        margin-top: -40px;
+    }
+    /*style till Värje namn av mat i Reseptsidor */
+    h3 {
+        font-size: medium;
+        width: 300px;
+        margin-left: -50px;
+        height: 70px;
+    }
+    /*text i om oss sidan*/
+    div.text1 {
+        width: 246px;
+    }
+
+
+    /***********style till Aptiretare och receptsidor 1,2,3,4******************/
+
+     #mainMenu li {
+        display: none;
+    }
+    /*text i receptsidor*/
+    .message {
+        text-align: justify;
+        width: 300px;
+        margin-left: 20px;
+        font-size: smaller;
+    }
+    /***img style in receptsidor***/
+    .ax img {
+        width: 150px;
+        height: 120px;
+        margin-left: 90px;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    /***img apti3 style i aptitretare sidan***/
+    #recept3 {
+        margin-left: 50px;
+    }
+    /**img apti4 style i aptitretare sidan****/
+    #recept4 {
+        margin-left: 50px;
+    }
+    /**style till img apti2 in receptsidan2******/
+    #artikel {
+        width: 150px;
+        height: 120px;
+        border-radius: 20px;
+        margin-left: 90px;
+        margin-top: 20px;
+    }
+    /**style till img apti4 in receptisidan4******/
+    #artikel2 {
+        width: 150px;
+        height: 120px;
+        border-radius: 20px;
+        margin-left: 90px;
+        margin-top: 0px;
+        margin-top: 20px;
+    }
+
+    #h2title {
+        margin-left: 70px;
+    }
+    /*texarea i om oss sidan*/
+    #aboutDescription {
+        width: 300px;
+        font-size: medium;
+    }
+    /*image i om oss wibsidan*/
+    div.bild7 img {
+        width: 300px;
+        margin-left: -250px;
+    }
+    /*button "gör så här" i alla reseptsidor (mat)*/
+    #btn-jquery {
+        width: 180px;
+        margin-left: 100px;
+        margin-top: 140px;
+    }
+    /*text under går så här i alla reseptsidor (mat)*/
+    #text3 {
+        display: none;
+        line-height: 1.5;
+        margin-left: 0px;
+        width: 350px;
+        margin-top: 0px;
+    }
+    /*****jquery dropdown menu**********/
+    .dropdown {
+        display: block;
+    }
+
+    #dropdownMenu1 {
+        width: 340px;
+        background-color: rgba(54, 163, 46, 0.83);
+        text-decoration: none;
+        border-radius: 10px;
+        height: 40px;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: large;
+        color: #fff;
+    }
+
+    #meny {
+        display: none;
+    }
+
+    /*******Veckanslunch page styling begins here************/
+
+
+    .tableContainer {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        margin: 20px;
+        height: 1000px;
+    }
+
+    .column {
+        width: 300px;
+        height: 270px;
+        border: 1px solid;
+        border-radius: 20px;
+        border-color: #cd853f;
+        box-shadow: inset 0 0 0 3px #cd853f, 0 2px 5px #cd853f;
+        margin-top: 10px;
+        background-color: rgba(205, 133, 63, 0.39);
+    }
+
+    .tableContainer img {
+        margin-top: 10px;
+        float: left;
+        width: 150px;
+        height: 150px;
+        align-items: center;
+    }
+
+
+    .tableContainer h2 {
+        background-color: rgb(205, 133, 63);
+        height: 35px;
+        margin: auto;
+        width: 290px;
+        border: 1px solid;
+        border-radius: 20px;
+        border-color: #cd853f;
+        box-shadow: inset 0 0 0 3px #cd853f, 0 2px 5px #cd853f;
+        padding: 0px;
+        margin-top: 10px;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        text-align: center;
+        font-size: 30px;
+        text-transform: capitalize;
+        color: #ffffff;
+    }
+
+    #weekNum h1 {
+        margin-top: 200px;
+        margin-bottom: 0px;
+        font-stretch: normal;
+        font-weight: normal;
+        line-height: 50px;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 40px;
+        text-align: center;
+        color: white;
+        width: 300px;
+        height: 50px;
+        background-color: peru;
+    }
+
+
+    p.lunch {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 30px;
+    }
+
+    p.rec {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 15px;
+        font-style: normal;
+    }
+
+    #welcome {
+        margin-top: 150px;
+        width: 330px;
+        height: 240px;
+    }
+
+    #welcomMsg {
+        width: 300px;
+    }
+
+    #successMsg {
+        width: 250px;
+        border-radius: 10px;
+    }
+}

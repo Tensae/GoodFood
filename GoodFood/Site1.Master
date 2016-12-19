@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="GoodFood.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <script src="Script/jquery-2.1.4.min.js"></script>
+    <script src="CreateElementDiv.js"></script>
+    <script src="foodmenu.js"></script>
+    <script src="myJavaScript.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+
+        <div id="logo">
+            <a href="default.aspx" title="Homepage" id="logo.jpg">
+                <img src="images/logo.jpg" alt="Good Food logo" />
+            </a>
+        </div>
+
+        <div id="content">
+
+            <div class="dropdown">
+                <button type="button" id="dropdownMenu1" data-toggle="dropdown">
+                    Show Menu 
+                    <i class="fa fa-angle-down" id="angleDown"></i>
+                    <i class="fa fa-angle-up angleUp hidden" id="angleUp"></i>
+                </button>
+            </div>
+
+            <!--navigation bar horisentel-->
+            <nav id="meny">
+                <div><a href="default.aspx" title="Home" class="tooltip">Home</a></div>
+                <div><a href="mat.aspx" title="Mat">Mat</a></div>
+                <div id="menu-container">
+                    <div onmouseover="DisplayInitial();" onmouseout="mouseExit();">
+                        <a href="Aptitretare.aspx" title="Aptitretare" class="aptitretareMenu" id="pagetoggle">Aptitretare</a>
+                        <ul id="mainMenu">
+                            <li><a href="recept1.aspx">Dadlar i julskinka</a></li>
+                            <li><a href="recept2.aspx">Fulkorv i ugn med salami höstsvamp</a></li>
+                            <li><a href="recept3.aspx">Julköttbullar med mandel ,grönkål och apelsin</a></li>
+                            <li><a href="recept4.aspx">Enkla snacks med wasabi and sesame</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div><a href="omoss.aspx" title="Om oss">Om oss</a></div>
+                <div><a href="login.aspx" id="loggain" title="Logga in">Logga in</a></div>
+            </nav>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <script>
+            function DisplayInitial() {
+                document.querySelector("#mainMenu").style.display = "block";
+                return false;
+            };
+            function mouseExit() {
+                document.querySelector('#mainMenu').style.display = 'none';
+            }
+
+        </script>
+    </form>
+    <footer>
+        <p>Posted by: Good Food</p>
+        <p>
+            Contact information: <a href="mailto:someone@example.com">Exotiskarecept@hotmail.com
+            </a>
+        </p>
+    </footer>
+</body>
+</html>
+
